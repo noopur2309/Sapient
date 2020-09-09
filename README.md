@@ -1,27 +1,30 @@
-# Sapient
+# SpaceX Launch Programs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+> Angular and Boostrap project
 
-## Development server
+## Build Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+``` bash
+# serve with hot reload at localhost:4200
+npm install -g @angular/cli
+ng new folderName
+```
 
-## Code scaffolding
+## Getting started
+Angular Bootstrap Dashboard is built on top of Bootstrap 4. To get started do the following steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Download the project
+Make sure you have node.js (https://nodejs.org/en/) installed
 
-## Build
+##Type npm install in the source folder where package.json is located
+##Type ng s  to start the development server
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+##The repo uses angular-cli scaffolding which takes care of the development setup with webpack and all the necessary modern tools to make web development faster and easier.
 
-## Running unit tests
+![Screenshot (51)](https://user-images.githubusercontent.com/44220001/92611382-5b7c0900-f2d6-11ea-85b2-9ba84824a866.png)
+![Screenshot (52)](https://user-images.githubusercontent.com/44220001/92611390-5dde6300-f2d6-11ea-9bba-bf8476a2d48d.png)
+![Screenshot (53)](https://user-images.githubusercontent.com/44220001/92611397-6040bd00-f2d6-11ea-898c-30a57b212a77.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
