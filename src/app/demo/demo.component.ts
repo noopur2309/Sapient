@@ -16,6 +16,7 @@ export class DemoComponent implements OnInit {
   // tslint:disable-next-line:variable-name
   all_: any;
   abcd: any;
+  searchText;
   constructor(
     private mainService: ModeService
   ) { }
@@ -68,4 +69,5 @@ getDetails() {
       )[0].launch_success;
   });
 }
+
 }
